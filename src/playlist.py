@@ -57,13 +57,6 @@ class PlayList:
             if likes_video > best_likes:
                 best_likes = likes_video
                 best_video_url = video_id
-        print(f'https://youtu.be/{best_video_url}')
         return f'https://youtu.be/{best_video_url}'
 
 
-
-pl = PlayList('PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw')
-pl.total_duration
-
-pl = PlayList('PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw')
-pl.show_best_video()
